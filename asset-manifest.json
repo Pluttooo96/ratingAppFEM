@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ratingAppFEM/static/css/main.6192e437.css",
+    "main.js": "/ratingAppFEM/static/js/main.e808174c.js",
+    "index.html": "/ratingAppFEM/index.html",
+    "main.6192e437.css.map": "/ratingAppFEM/static/css/main.6192e437.css.map",
+    "main.e808174c.js.map": "/ratingAppFEM/static/js/main.e808174c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6192e437.css",
+    "static/js/main.e808174c.js"
+  ]
+}
