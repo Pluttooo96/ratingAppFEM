@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: Overpass, sans-serif;
+}
+
+/* info about main box*/
+.box {
+  position: absolute;
+  max-height: 600px;
+  width: 400px;
+  margin: -100px 0 0 -200px;
+  top: 40%;
+  left: 50%;
+  border-radius: 1rem;
+  text-align: center; 
+  background-color: #1F2630;
+}
+
+/*circle behind star*/
+.stars {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 2rem 2rem;
+  background-color: #272E38;
+}
+
+/*image of stare*/
+.star{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/*rating screen info*/
+h1,p {
+    margin: 2rem;
+    color: #EDF1F6;
+    text-align: justify;
+}
+
+p {
+  font-size: 1rem;
+  color: #6D767F;;
+}
+
+/*feedback screen info*/
+.second {
+  text-align: center;
+}
+
+/*box with 5 ratings*/
+.ratings{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 2rem 2rem;
+}
+
+/* single rating button*/
+.rating {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  font-weight: 700;
+  color: #6D767F;
+  background-color: #272E38;
+}
+
+.rating:hover {
+  color: #EDF1F6;
+  background-color: #FB7918 ;
+}
+
+.rating:focus{
+  background-color: #7B8797;
+  color:#EDF1F6;
+}
+
+/* submit button*/
+.submit {
+  width: 21rem;
+  height: 2.5rem;
+  margin: 0 0 2rem;
+  border: none;
+  border-radius: 1rem; 
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  background-color: #6D767F;
+  color: #272E38;
+}
+
+.submit:hover{
+  color:#FB7918;
+  background-color: #EDF1F6;
+}
+
+/*thanks image*/
+.thank-img {
+  padding: 2rem 0 0 0;
+}
+
+/*box with info about picked rating*/
+.feedback {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem 6rem;
+  border-radius: 1rem;
+  background-color:#272e38;
+  color:#FB7918;
+}
+
+/* style for mobile*/
+@media screen and (max-width: 340px) {
+  .box {
+    max-height: 480px;
+    width: 330px;
+    margin: -100px 0 0 -165px;
+  }
+}
